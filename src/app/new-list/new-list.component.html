@@ -1,0 +1,100 @@
+<app-navbar></app-navbar>
+<div>
+  <div class="title">
+      <h1>List Coupon</h1>
+  </div>
+
+<div class="cards"></div>
+<div class="card1">
+<div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <img src='../../assets/product/1.jpg' alt="Avatar" style="width:500px;height:400px;">
+    </div>
+    <div class="flip-card-back">
+      <h1>Leather sofa</h1> 
+      <p>Architect & Engineer</p> 
+      <p>Cost:1500$</p>
+      <button (clike)="add">Buy</button>
+    </div>
+  </div>
+</div>
+</div>
+
+<div class="card2">
+ <div class="flip-card">
+    <div class="flip-card-inner">
+       <div class="flip-card-front">
+          <img src='../../assets/product/2.jpg' alt="Avatar" style="width:500px;height:400px;">
+       </div>
+        <div class="flip-card-back">
+            <h1>Leather sofa</h1> 
+            <p >Architect & Engineer</p> 
+            <p class="costcount">Cost:1300$</p>
+          <button>Buy</button>
+        </div>
+     </div>
+   </div>
+ </div> 
+
+  <div class="card4">
+    <div class="flip-card">
+       <div class="flip-card-inner">
+          <div class="flip-card-front">
+              <img src='../../assets/product/4.jpg' alt="Avatar" style="width:500px;height:400px;">          </div>
+           <div class="flip-card-back">
+              <h1>Wood Table</h1> 
+              <p>Architect & Engineer</p> 
+              <p>Cost:570$</p>
+             <button>Buy</button>
+            </div>
+        </div>
+      </div>
+    </div>
+    <div class="card3">
+        <div class="flip-card">
+           <div class="flip-card-inner">
+              <div class="flip-card-front">
+                  <img src='../../assets/product/3.jpg' alt="Avatar" style="width:500px;height:400px;">          </div>
+               <div class="flip-card-back">
+                <h1>John Doe</h1> 
+                <p>Architect & Engineer</p> 
+                 <p>We love that guy</p>
+                 <button>Buy</button>
+                </div>
+            </div>
+          </div>
+        </div>
+
+ <div class="card5">
+      <div class="flip-card">
+         <div class="flip-card-inner">
+            <div class="flip-card-front">
+                <img src='../../assets/product/5.jpg' alt="Avatar" style="width:500px;height:400px;">            </div>
+             <div class="flip-card-back">
+              <h1>John Doe</h1> 
+              <p>Architect & Engineer</p> 
+               <p>We love that guy</p>
+               <button>Buy</button>
+             </div>
+          </div>
+        </div>
+ </div>
+
+<div class="card6">
+      <div class="flip-card">
+         <div class="flip-card-inner">
+            <div class="flip-card-front">
+                <img src='../../assets/product/6.jpg' alt="Avatar" style="width:500px;height:400px;">            </div>
+             <div class="flip-card-back">
+              <h1>John Doe</h1> 
+              <p>Architect & Engineer</p> 
+               <p>We love that guy</p>
+               <button>Buy</button>
+             </div>
+          </div>
+        </div>
+        
+ </div>
+ <div (clike)="sum()" ngfor="couting"> Cost :0</div>
+</div>

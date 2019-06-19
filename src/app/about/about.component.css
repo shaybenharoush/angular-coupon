@@ -1,0 +1,29 @@
+html{
+	height: auto;
+	width: 100%;
+	background-color: orange;
+
+}
+.tiltle{
+    margin: 0px;
+    font-size: 300px;
+    text-align: center;
+    background-color: aqua;
+    color: black;
+
+}
+
+.pho{
+    text-align: center;
+   
+    width: 400px;
+	height: 405px;
+    margin: auto;
+    margin-top: 45px;
+
+    
+	border: rgb(36, 13, 13) 10px solid;
+	padding: 2em;
+	transition: 3s;
+    
+}

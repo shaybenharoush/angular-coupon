@@ -1,0 +1,88 @@
+<div class="B"> 
+  <div class="title">Company Page </div>
+  <app-image-admin></app-image-admin>
+   <div class="box">
+      <button (click)="myFunction1()">Add Company</button>
+      <div></div>
+     <div  class="one" *ngIf="showElement1">
+        <form>
+            <h1>Add Coupon</h1>
+            <label for="loginName">ID Company :  </label>
+            <input type="text" id="loginName">
+           <div></div>
+            <label for="loginPassword">Name :  </label>
+            <input type="password" id="loginPassword">
+            <div></div>
+            
+            <button class="ok">ok</button>
+        </form>
+
+     </div>
+     <button (click)="myFunction()">Remove Coupon</button>
+     <div></div>
+     <div class="two" *ngIf="showElement">
+       
+      
+       <div id="demo"></div>
+        <form >
+          <h1>Remove Coupon</h1>
+            <label for="loginName">ID Company:  </label>
+            <input type="text" id="loginName">
+            <div></div>
+            <button class="ok">ok</button>
+        </form>
+
+     </div>
+     <button (click)="myFunction2()">Update Company</button>
+     <div></div>
+     <div class="three" *ngIf="showElement2">
+        <form>
+            <h1>Update Company</h1>
+            <label for="loginName">ID Company :  </label>
+            <input type="text" id="loginName">
+           <div></div>
+            <label for="loginPassword">New Password :  </label>
+            <input type="password" id="loginPassword">
+            <div></div>
+            <label for="loginPassword">New Email :  </label>
+            <input type="password" id="loginPassword">
+            <div></div>
+            <label for="loginPassword">Email :  </label>
+            <input type="password" id="loginPassword">
+            <div></div>
+            <button class="ok">ok</button>
+        </form>
+     </div>
+   
+    <button (click)="myFunction3()">Remove Customer</button>
+    <div></div>
+    <div class="two" *ngIf="showElement3">
+       <form >
+         <h1>Remove Customer</h1>
+           <label for="loginName">ID Company:  </label>
+           <input type="text" id="loginName">
+           <div></div>
+           <button class="ok">ok</button>
+       </form>
+
+    </div>
+    <button (click)="myFunction4()">Update Customer</button>
+    <div></div>
+    <div class="five" *ngIf="showElement4">
+        <form>
+            <h1>Update Customer</h1>
+            <label for="loginName">ID Company :  </label>
+            <input type="text" id="loginName">
+           <div></div>
+            <label for="loginPassword">New Password :  </label>
+            <input type="password" id="loginPassword">
+            <div></div>
+            
+            <button class="ok">ok</button>
+        </form>
+     </div>
+     </div>
+
+
+
+</div>

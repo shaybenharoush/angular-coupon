@@ -1,0 +1,95 @@
+.B{
+    background-image: url(../../assets/images/background.jpg);
+    background-size: cover;
+    min-height:100%;
+    height:auto;
+    width: 100%;
+}
+.title{
+    /* margin-top: 10px; */
+    text-align: center;
+    font-size: 90px;
+    color: blue;
+    text-shadow: 10px 10px 5px black;
+
+}
+.iconadmin{
+    border-radius:2px 16px;
+    margin-top: 2%;
+    margin-right: 10%;
+    text-align:center;
+}
+
+.box{
+  
+   
+}
+.one{
+    border: black 4px solid;
+    margin-top: 4%;
+    margin-right: 50%;
+    background-color: deepskyblue;
+
+    
+}
+.two{
+    border: black 4px solid;
+    margin-top: 4%;
+    margin-right: 50%;
+    background-color: deepskyblue;
+
+}
+.three{
+    border: black 4px solid;
+    margin-top: 4%;
+    margin-right: 50%;
+    background-color: deepskyblue;
+
+}
+
+.foure{
+    border: black 4px solid;
+    margin-top: 4%;
+    margin-right: 50%;
+    background-color: deepskyblue;
+
+
+}
+.five{
+    border: black 4px solid;
+    margin-top: 4%;
+    margin-right: 50%;
+    background-color: deepskyblue;
+
+}
+
+
+
+button{
+   margin: 20px;
+   margin-left: 20%;
+    background-color: rgba(94, 238, 214, 0.952);
+    color: blue;
+    box-shadow: black 10px ;
+    width: 200px;
+}
+button:hover{
+    background-color: rgba(10, 189, 159, 0.986);
+    translate: 3s;
+    animation-name: try;
+    animation-direction: 4s;
+    box-shadow: 2px 5px 2px black;
+    color: darkblue;
+  
+
+}
+@keyframes try{
+    0% {left :-20px;}
+}
+button:active{
+    background-color:rgba(15, 119, 102, 0.986);
+    color: white;
+}
+.ok{
+    background-color: azure;
+}
